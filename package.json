@@ -1,0 +1,13 @@
+{
+  "name": "big-data-et-bdd",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Seeder Supabase (PostgreSQL)",
+  "scripts": {
+    "bdd": "node run-sql.js schema.sql",
+    "seed": "node run-sql.js seed.sql"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}
